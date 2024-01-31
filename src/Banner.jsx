@@ -8,12 +8,7 @@ const Banner = () => {
           Book Your Doctor Appointment Today
         </h1>
         <p className="text-lg mb-8"></p>
-        <img
-          src="/doctor_appointment_image.jpg" 
-          alt="Doctor Appointment"
-          className="mx-auto rounded-lg mb-8"
-          style={{ maxWidth: "100%", height: "auto" }}
-        />
+       
         <button>
           <NavLink
             to="/booknow"
